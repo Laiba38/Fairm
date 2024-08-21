@@ -1,4 +1,4 @@
-package com.example.fairm.Screen
+package com.example.fairm.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -61,7 +61,7 @@ fun TextChat() {
     ) {
 
         Text(
-            text = "You can start planting seed starting now and will get " +
+            text = "You can start planting seed starting now and will get/n " +
                     "get the result on 5 months!",
             color = Color.White,
             modifier = Modifier
